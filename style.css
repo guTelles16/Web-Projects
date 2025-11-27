@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34; /* Fundo escuro */
+    margin: 0;
+    font-family: monospace; /* Fonte que parece digital */
+    color: white;
+}
+
+.clock {
+    padding: 20px 40px;
+    border: 4px solid #61dafb; /* Borda azul neon */
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(97, 218, 251, 0.5); /* Efeito neon glow */
+}
+
+#time {
+    font-size: 5rem; /* Tamanho grande da fonte */
+    letter-spacing: 3px;
+}
