@@ -6,6 +6,7 @@ body {
     background-color: #282c34; /* Fundo escuro */
     margin: 0;
     font-family: monospace; /* Fonte que parece digital */
+    flex-direction: column; /* Alinhar a data e hora verticalmente */
     color: white;
 }
 
@@ -20,4 +21,9 @@ body {
 #time {
     font-size: 5rem; /* Tamanho grande da fonte */
     letter-spacing: 3px;
+}
+
+#date {
+    font-size: 1.5rem; /* Tamanho menor da fonte */
+    margin-bottom: 10px; /* Espaço entre a data e hora */
 }
